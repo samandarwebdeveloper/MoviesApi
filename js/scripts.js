@@ -71,8 +71,4 @@ function myFunction() {
   getData(page);
   
   }
-  
 myFunction();
-  
- 
-  
