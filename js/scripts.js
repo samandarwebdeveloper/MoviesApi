@@ -6,6 +6,7 @@ const elNext = $_(".js-next");
 
 let page = 1;
 
+// INPUT PROMPT
 function myFunction() {
     var person = prompt("Please, enter movie name", "Harry Potter");
     if (person != null) {
