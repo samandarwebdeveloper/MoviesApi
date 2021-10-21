@@ -13,7 +13,7 @@ function myFunction() {
 
         // GET API
         function getData(page) {
-            fetch(`http://www.omdbapi.com/?apikey=9fcd4d84&s=${movieName}&page=${page}`)
+            fetch(`https://www.omdbapi.com/?apikey=9fcd4d84&s=${movieName}&page=${page}`)
               .then((response) => response.json())
               .then((data) => {
                 console.log(data);
