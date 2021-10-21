@@ -237,9 +237,9 @@ body {
   margin: 15px;
   width: 250px;
   height: 400px;
-  box-shadow: 6px 5px 15px #848686;
+  box-shadow: 6px 5px 15px #8486868e;
   overflow-y: hidden;
-  border-radius: 10px;
+  border-radius: 4px;
 
 }
 .movie-poster {
