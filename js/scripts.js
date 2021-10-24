@@ -24,10 +24,14 @@ elForm.addEventListener("submit", (evt) => {
   const inputValue = elFormInput.value.trim();
   if (inputValue == "") {
     elAlert.style.display = "block";
+    elLoader.style.display = "none";
+    elPrev.style.display = "none";
+    elNext.style.display = "none";
     
   }  else {
     elAlert.style.display = "none";
-
+    elPrev.style.display = "block";
+    elNext.style.display = "block";
   }
 
   getData(page, inputValue);
@@ -64,11 +68,6 @@ function getData(page, value) {
       elLoader.style.display = "none";
     }, 500);
     
-    
-      elPrev.style.display = "block";
-      elNext.style.display = "block";
-    
-      
       working(data.Search);
     });
 
