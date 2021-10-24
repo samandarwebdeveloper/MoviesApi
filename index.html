@@ -12,13 +12,20 @@
 <body class="bg-dark">
     <div class="content js-loader">
         <div class="loading">
-    <p>loading</p>
+            <p>loading</p>
         <span></span>
         </div>
     </div>
 
     <div class="container-xxl">
         <h1 class="text-center my-3 text-light">Movies API</h1>
+        <form class="js-form" method="GET">
+            <div class="d-flex align-items-center justify-content-center">
+                <input class="form-control js-form-input" type="search" name="" id="" placeholder="Search movie">
+                <button class="btn btn-primary js-submit-btn" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <p class="alert">Please, input movie name!</p>
+        </form>
         <ul class="d-flex list-unstyled flex-wrap align-items-start justify-content-center js-films-list"></ul>
         <button class="prev-btn btn-primary btn js-prev"><i class="fa fa-arrow-left"></i></button>
         <button class="next-btn btn-primary btn js-next"><i class="fa fa-arrow-right"></i></button>
